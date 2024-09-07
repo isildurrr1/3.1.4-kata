@@ -5,16 +5,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
-  <title>Макет</title>
+  <title>Первый блок</title>
 </head>
 
 <body>
-  <header class="header">
-    <img src="./images/burger-icon.svg" alt="Иконка меню" class="header__icon">
-    <img src="./images/logo.svg" alt="Логотип" class="header__logo">
-    <img src="./images/repair-icon.svg" alt="Иконка заявки" class="header__icon">
-    <img src="./images/checkstatus-icon.svg" alt="Иконка статуса" class="header__icon">
-  </header>
+  <div class="page">
+    <header class="header">
+      <img src="./images/burger-icon.svg" alt="Иконка меню" class="header__icon">
+      <img src="./images/logo.svg" alt="Логотип" class="header__logo">
+      <div class="header__line"></div>
+      <img src="./images/repair-icon.svg" alt="Иконка заявки" class="header__icon">
+      <img src="./images/checkstatus-icon.svg" alt="Иконка статуса" class="header__icon">
+    </header>
+    <main class="main">
+      <section class="content">
+        <div class="main-title">
+          <div class="main-title__line"></div>
+          <h1 class="main-title__title">Услуги и сервисы</h1>
+        </div>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__element">Ремонтируемые бренды</li>
+            <li class="menu__element">Ремонтируемые устройства</li>
+            <li class="menu__element">Цены на услуги</li>
+            <li class="menu__element">Адреса сервисных центров</li>
+            <li class="menu__element">Специальные цены</li>
+            <li class="menu__element">Отзывы</li>
+          </ul>
+        </nav>
+      </section>
+    </main>
+  </div>
 </body>
 
 </html>

@@ -2,6 +2,7 @@
   height: 88px;
   background-color: #FFFFFF;
   display: flex;
-  gap: 16px;
   padding: 0 16px;
+  gap: 16px;
+  border-bottom: 1px solid #D9FFF5;
 }
