@@ -3,4 +3,7 @@
   height: 40px;
   margin: auto 0;
   align-items: center;
+  border: none;
+  background-color: white;
+  background-image: url(../../../images/burger-icon.svg);
 }

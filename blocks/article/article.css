@@ -3,3 +3,12 @@
   flex-direction: column;
   justify-content: start;
 }
+
+@media screen and (min-width: 520px) {
+  .article {
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 208px;
+    margin: 0 24px 24px 24px;
+  }
+}

@@ -4,7 +4,7 @@
   font-weight: 600;
   height: 24px;
   align-items: center;
-  margin: 16px 0 16px 47px;
+  margin: 16px 0 0 31px;
 }
 
 .article__more::before {
@@ -14,4 +14,10 @@
   width: 24px;
   height: 24px;
   background: url(../../../images/expand.svg);
+}
+
+@media screen and (min-width: 520px) {
+  .article__more {
+    margin: 10px 0 0 31px;
+  }
 }

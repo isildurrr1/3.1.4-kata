@@ -5,3 +5,10 @@
   height: 40px;
   margin-right: 12px;
 }
+
+
+@media screen and (min-width: 520px) {
+  .main-title__line {
+    margin-right: 20px;
+  }
+}
