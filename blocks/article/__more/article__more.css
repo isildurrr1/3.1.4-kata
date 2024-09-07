@@ -1,0 +1,17 @@
+.article__more {
+  display: flex;
+  font-size: 16px;
+  font-weight: 600;
+  height: 24px;
+  align-items: center;
+  margin: 16px 0 16px 47px;
+}
+
+.article__more::before {
+  content: '';
+  position: absolute;
+  margin-left: -30px;
+  width: 24px;
+  height: 24px;
+  background: url(../../../images/expand.svg);
+}

@@ -15,5 +15,11 @@
 @import url(../blocks/main-title/__title/main-title__title.css);
 /* menu */
 @import url(../blocks/menu/menu.css);
-@import url(../blocks/menu/__element/menu__element.css);
 @import url(../blocks/menu/__list/menu__list.css);
+@import url(../blocks/menu/__element/menu__element.css);
+@import url(../blocks/menu/__element/_active/menu__element_active.css);
+/* article */
+@import url(../blocks/article/article.css);
+@import url(../blocks/article/__paragraph/article__paragraph.css);
+@import url(../blocks/article/__more/article__more.css);
+@import url(../blocks/article/__image/article__image.css);
