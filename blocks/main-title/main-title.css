@@ -2,3 +2,10 @@
   display: flex;
   margin-top: 24px;
 }
+
+@media screen and (min-width: 880px) {
+  .main-title{
+    margin: 0;
+    padding-top: 42px;
+  }
+}

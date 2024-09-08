@@ -5,6 +5,7 @@
   height: 24px;
   align-items: center;
   margin: 16px 0 0 31px;
+  cursor: pointer;
 }
 
 .article__more::before {
@@ -19,5 +20,12 @@
 @media screen and (min-width: 520px) {
   .article__more {
     margin: 10px 0 0 31px;
+  }
+}
+
+@media screen and (min-width: 880px) {
+  .article__more {
+    margin-top: 12px;
+    letter-spacing: -0.2px;
   }
 }

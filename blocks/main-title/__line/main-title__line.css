@@ -12,3 +12,9 @@
     margin-right: 20px;
   }
 }
+
+@media screen and (min-width: 880px) {
+  .main-title__line {
+    margin-right: 30px;
+  }
+}

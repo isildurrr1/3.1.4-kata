@@ -12,3 +12,9 @@
     padding: 0 24px;
   }
 }
+
+@media screen and (min-width: 880px) {
+  .header{
+    display: none;
+  }
+}

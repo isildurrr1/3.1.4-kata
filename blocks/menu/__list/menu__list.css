@@ -4,9 +4,16 @@
   list-style: none;
   display: flex;
   overflow: scroll;
+  row-gap: 7px;
 }
 
 .menu__list::-webkit-scrollbar {
   width: 0;
   height: 0;
+}
+
+@media screen and (min-width: 880px) {
+  .menu__list {
+    flex-wrap: wrap;
+  }
 }
