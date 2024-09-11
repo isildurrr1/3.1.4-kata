@@ -2,3 +2,10 @@
   font-family: "TTLakes", "Arial", "Helvetica", sans-serif;
   background-color: #F8F8F8;
 }
+
+@media screen and (min-width: 880px) {
+  .page {
+    display: flex;
+    justify-content: center;
+  }
+}

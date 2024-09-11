@@ -5,5 +5,10 @@
   align-items: center;
   border: none;
   background-color: white;
-  background-image: url(../../../images/burger-icon.svg);
+  cursor: pointer;
+  transition: transform 0.5s ;
+}
+
+.header__icon:hover {
+  transform: scale(1.1); 
 }

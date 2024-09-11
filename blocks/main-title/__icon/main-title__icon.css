@@ -1,4 +1,9 @@
 .main-title__icon {
   margin: auto 0 auto 8px;
   cursor: pointer;
+  transition: transform 0.5s ;
+}
+
+.main-title__icon:hover {
+  transform: scale(1.1); 
 }
